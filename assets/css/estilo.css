@@ -121,7 +121,7 @@ body::before {
     text-decoration: underline;
 }
 
-facebook {
+.facebook {
     display: flex;
     align-items: center;
     width: 100%;
@@ -165,4 +165,19 @@ facebook {
 
 .terms a:hover{
     text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    .logo img {
+        height: auto;
+        width: 70px;
+    }
+
+    .login_body{
+        padding: 20px;
+        z-index: 90;
+        position: relative;
+        width: 250px;
+        height: 550px;
+    }
 }
