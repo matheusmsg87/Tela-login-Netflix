@@ -174,10 +174,10 @@ body::before {
     }
 
     .login_body{
-        padding: 20px;
+        padding: 30px;
         z-index: 90;
         position: relative;
-        width: 250px;
+        width: 380px;
         height: 550px;
     }
 }
